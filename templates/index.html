@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Body Fat Estimator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Powered Body Fat Estimator</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <label>Upload Image (Full Torso):</label>
+            <input type="file" name="image" accept="image/*" required><br>
+
+            <label>Height (cm):</label>
+            <input type="number" name="height" required><br>
+
+            <label>Weight (kg):</label>
+            <input type="number" name="weight" required><br>
+
+            <label>Age:</label>
+            <input type="number" name="age" required><br>
+
+            <label>Gender:</label>
+            <select name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+
+            <button type="submit">Analyze</button>
+        </form>
+
+        {% if result %}
+            <div class="result" style="white-space: pre-line;">
+                <h2>📊 Analysis Result</h2>
+                <p>{{ result }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
