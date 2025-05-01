@@ -3,8 +3,9 @@ import base64
 from flask import Flask, render_template, request
 from PIL import Image
 import openai
+from config import OPENAI_API_KEY
 
-openai.api_key = "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"
+openai.api_key = OPENAI_API_KEY
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
