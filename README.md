@@ -1,6 +1,6 @@
 # 🧠 AI Body Fat Estimator
 
-This is an AI-powered web app that estimates a user's **body fat percentage** based on a torso image and biometric data. Powered by **OpenAI GPT-4 Vision**, it performs visual analysis and returns structured health insights.
+This is an AI-powered web app that estimates a user's **body fat percentage** based on a torso image and biometric data. Powered by **OpenAI GPT-4.1**, it performs visual analysis and returns structured health insights.
 
 > Built with **Flask**, styled with **Tailwind CSS**, and deployable via **Replit** or any web host.
 
