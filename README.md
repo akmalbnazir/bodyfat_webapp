@@ -10,7 +10,7 @@ This is an AI-powered web app that estimates a user's **body fat percentage** ba
 
 - 📸 Upload image (full torso, good lighting)
 - 🧍 Enter height, weight, age, and gender
-- 🤖 GPT-4 Vision analyzes body shape, muscle definition, and fat distribution
+- 🤖 GPT-4.1 analyzes body shape, muscle definition, and fat distribution
 - 📊 Outputs estimated **body fat %** with explanation and fitness category
 - 🧠 Markdown-rendered analysis result with confidence level and health tips
 
